@@ -1,0 +1,6 @@
+apple:€блоко
+cat:кот,  кошка
+dog:собака
+item:
+value:
+штука:item, value

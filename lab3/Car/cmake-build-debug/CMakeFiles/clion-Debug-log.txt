@@ -1,0 +1,30 @@
+"C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\iSpring\StudyOOP\lab3\Car -B C:\iSpring\StudyOOP\lab3\Car\cmake-build-debug
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/iSpring/C++ Game/CppDistro/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/iSpring/C++ Game/CppDistro/MinGW/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at test/CMakeLists.txt:1 (include):
+  include could not find requested file:
+
+    AddCatch2
+
+
+CMake Error at test/CMakeLists.txt:12 (include):
+  include could not find requested file:
+
+    Catch
+
+
+CMake Error at test/CMakeLists.txt:13 (catch_discover_tests):
+  Unknown CMake command "catch_discover_tests".
+
+
+-- Configuring incomplete, errors occurred!
