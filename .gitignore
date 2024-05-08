@@ -238,3 +238,5 @@ _Pvt_Extensions
 samples/01-basics/string-joiner/out.txt
 
 **/.idea
+
+**/cmake-*/

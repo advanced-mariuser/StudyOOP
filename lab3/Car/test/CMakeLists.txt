@@ -11,3 +11,8 @@ target_link_libraries(
 include(Ctest)
 include(Catch)
 catch_discover_tests(unit_tests)
+
+add_custom_target(run_tests
+    COMMAND unit_tests
+    DEPENDS unit_tests
+)

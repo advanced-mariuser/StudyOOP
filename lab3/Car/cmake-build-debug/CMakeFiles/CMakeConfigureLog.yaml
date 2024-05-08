@@ -546,3 +546,31 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/catch2-src/CMake/CatchMiscFunctions.cmake:12 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/catch2-src/CMake/CatchMiscFunctions.cmake:119 (add_cxx_flag_if_supported_to_targets)"
+      - "cmake-build-debug/_deps/catch2-src/src/CMakeLists.txt:342 (add_build_reproducibility_settings)"
+    checks:
+      - "Performing Test HAVE_FLAG__ffile_prefix_map_C__iSpring_StudyOOP_lab3_Car_cmake_build_debug__deps_catch2_src__"
+    directories:
+      source: "C:/iSpring/StudyOOP/lab3/Car/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-za26lk"
+      binary: "C:/iSpring/StudyOOP/lab3/Car/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-za26lk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/iSpring/StudyOOP/lab3/Car/cmake;C:/iSpring/StudyOOP/lab3/Car/cmake-build-debug/_deps/catch2-src/extras;C:/iSpring/StudyOOP/lab3/Car/cmake-build-debug/_deps/catch2-src/CMake"
+    buildResult:
+      variable: "HAVE_FLAG__ffile_prefix_map_C__iSpring_StudyOOP_lab3_Car_cmake_build_debug__deps_catch2_src__"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
