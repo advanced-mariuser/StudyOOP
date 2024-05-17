@@ -239,4 +239,4 @@ samples/01-basics/string-joiner/out.txt
 
 **/.idea
 
-**/cmake-*/
+**/cmake-build*/

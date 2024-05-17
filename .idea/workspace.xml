@@ -11,69 +11,91 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Car" targetName="NightlyUpdate" />
-      <config projectName="Car" targetName="car" />
-      <config projectName="Car" targetName="ExperimentalUpdate" />
-      <config projectName="Car" targetName="Catch2" />
-      <config projectName="Car" targetName="ContinuousConfigure" />
-      <config projectName="Car" targetName="ExperimentalMemCheck" />
-      <config projectName="Car" targetName="unit_tests" />
-      <config projectName="Car" targetName="ExperimentalCoverage" />
-      <config projectName="Car" targetName="ExperimentalStart" />
-      <config projectName="Car" targetName="ContinuousUpdate" />
-      <config projectName="Car" targetName="ExperimentalSubmit" />
-      <config projectName="Car" targetName="NightlyBuild" />
-      <config projectName="Car" targetName="Experimental" />
-      <config projectName="Car" targetName="NightlyConfigure" />
-      <config projectName="Car" targetName="ContinuousBuild" />
-      <config projectName="Car" targetName="NightlyTest" />
-      <config projectName="Car" targetName="ContinuousCoverage" />
-      <config projectName="Car" targetName="Nightly" />
-      <config projectName="Car" targetName="NightlySubmit" />
-      <config projectName="Car" targetName="NightlyMemCheck" />
-      <config projectName="Car" targetName="ExperimentalTest" />
-      <config projectName="Car" targetName="ContinuousSubmit" />
-      <config projectName="Car" targetName="ContinuousMemCheck" />
-      <config projectName="Car" targetName="run_tests" />
-      <config projectName="Car" targetName="ExperimentalConfigure" />
-      <config projectName="Car" targetName="Continuous" />
-      <config projectName="Car" targetName="lab_3" />
-      <config projectName="Car" targetName="ContinuousTest" />
-      <config projectName="Car" targetName="NightlyMemoryCheck" />
-      <config projectName="Car" targetName="ExperimentalBuild" />
-      <config projectName="Car" targetName="NightlyCoverage" />
-      <config projectName="Car" targetName="ContinuousStart" />
-      <config projectName="Car" targetName="Catch2WithMain" />
-      <config projectName="Car" targetName="NightlyStart" />
+      <config projectName="Shapes" targetName="ExperimentalConfigure" />
+      <config projectName="Shapes" targetName="ContinuousCoverage" />
+      <config projectName="Shapes" targetName="ExperimentalBuild" />
+      <config projectName="Shapes" targetName="sfml-graphics" />
+      <config projectName="Shapes" targetName="ContinuousMemCheck" />
+      <config projectName="Shapes" targetName="NightlyMemCheck" />
+      <config projectName="Shapes" targetName="ExperimentalTest" />
+      <config projectName="Shapes" targetName="sfml-system" />
+      <config projectName="Shapes" targetName="NightlyTest" />
+      <config projectName="Shapes" targetName="Continuous" />
+      <config projectName="Shapes" targetName="NightlyCoverage" />
+      <config projectName="Shapes" targetName="ContinuousSubmit" />
+      <config projectName="Shapes" targetName="ExperimentalSubmit" />
+      <config projectName="Shapes" targetName="NightlyStart" />
+      <config projectName="Shapes" targetName="sfml-window" />
+      <config projectName="Shapes" targetName="ExperimentalUpdate" />
+      <config projectName="Shapes" targetName="NightlyUpdate" />
+      <config projectName="Shapes" targetName="Experimental" />
+      <config projectName="Shapes" targetName="shape" />
+      <config projectName="Shapes" targetName="ExperimentalCoverage" />
+      <config projectName="Shapes" targetName="ExperimentalMemCheck" />
+      <config projectName="Shapes" targetName="Nightly" />
+      <config projectName="Shapes" targetName="Catch2WithMain" />
+      <config projectName="Shapes" targetName="sfml-audio" />
+      <config projectName="Shapes" targetName="ContinuousConfigure" />
+      <config projectName="Shapes" targetName="ContinuousTest" />
+      <config projectName="Shapes" targetName="sfml-network" />
+      <config projectName="Shapes" targetName="Catch2" />
+      <config projectName="Shapes" targetName="ContinuousStart" />
+      <config projectName="Shapes" targetName="NightlyConfigure" />
+      <config projectName="Shapes" targetName="ContinuousBuild" />
+      <config projectName="Shapes" targetName="Shapes" />
+      <config projectName="Shapes" targetName="NightlyMemoryCheck" />
+      <config projectName="Shapes" targetName="NightlySubmit" />
+      <config projectName="Shapes" targetName="tests" />
+      <config projectName="Shapes" targetName="ExperimentalStart" />
+      <config projectName="Shapes" targetName="ContinuousUpdate" />
+      <config projectName="Shapes" targetName="NightlyBuild" />
+      <config projectName="Shapes" targetName="run_tests" />
+      <config projectName="Shapes" targetName="sfml-main" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release-event-trace" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="--profiling-format=google-trace --profiling-output=CMakeFiles\clion-event-trace.json" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9cd84b6-c9d0-4000-8468-031e7e071e0a" name="Changes" comment="Добавил описание и clang-format">
-      <change afterPath="$PROJECT_DIR$/lab3/Car/cmake/AddCatch2.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Car/src/RemoteControl.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Car/src/RemoteControl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Car/src/stdafx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/src/stdafx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/cmake/AddCatch2.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Canvas/CCanvas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Canvas/ICanvas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Canvas/ICanvasDrowable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Controller/ShapeController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/ShapeFactory/ShapeFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/ShapeFactory/ShapeFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/CBaseShape.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/CBaseShape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Circle/CCircle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Circle/CCircle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/IShape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/ISolidShape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/LineSegment/CLineSegment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/LineSegment/CLineSegment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Point/CPoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Rectangle/CRectangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Rectangle/CRectangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Triangle/CTriangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/Shapes/Triangle/CTriangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/src/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/test/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/test/ShapeTests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/src/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/src/Car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/src/Car.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/src/Car.h" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/src/Car.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/Car/test/CarTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/Car/test/CarTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/Shape/Circle/CCircle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/Canvas/CCanvas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/Shape/Circle/CCircle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/Shape/IShape.h" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/src/Controller/ShapeController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/Shape/ISolidShape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/src/stdafx.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +115,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -124,7 +147,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;CMake Application.Shapes.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.lab_3.executor&quot;: &quot;Run&quot;,
+    &quot;CTest Application.All CTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -135,201 +160,237 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;ctest.advertisement.all.test.configuration.is.created&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/iSpring/StudyOOP&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/iSpring/StudyOOP/lab4/cmake-modules&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;language.cpp.clang-tidy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\iSpring\StudyOOP\lab4\cmake-modules" />
+      <recent name="C:\iSpring\StudyOOP\lab4" />
+      <recent name="C:\iSpring\StudyOOP\lab4\cmake" />
       <recent name="C:\iSpring\StudyOOP" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\iSpring\StudyOOP\lab4\cmake-modules" />
+    </key>
   </component>
-  <component name="RunManager" selected="CMake Application.lab_3">
-    <configuration name="unit_tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="unit_tests" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Car" RUN_TARGET_NAME="unit_tests" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="CMake Application.Shapes">
+    <configuration name="tests" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="tests" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Shapes" RUN_TARGET_NAME="tests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Catch2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="Catch2" CONFIG_NAME="Release">
+    <configuration name="Catch2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Catch2" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Catch2WithMain" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="Catch2WithMain" CONFIG_NAME="Release">
+    <configuration name="Catch2WithMain" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Catch2WithMain" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="Continuous" CONFIG_NAME="Release">
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Continuous" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Release">
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Release">
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Release">
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Release">
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousStart" CONFIG_NAME="Release">
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousStart" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Release">
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousTest" CONFIG_NAME="Release">
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousTest" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Release">
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="Experimental" CONFIG_NAME="Release">
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Experimental" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Release">
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Release">
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Release">
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Release">
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Release">
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Release">
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Release">
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Release">
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="Nightly" CONFIG_NAME="Release">
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Nightly" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyBuild" CONFIG_NAME="Release">
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyBuild" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Release">
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Release">
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Release">
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Release">
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyStart" CONFIG_NAME="Release">
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyStart" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlySubmit" CONFIG_NAME="Release">
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlySubmit" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyTest" CONFIG_NAME="Release">
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyTest" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Release">
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="car" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="car" CONFIG_NAME="Release">
+    <configuration name="Shapes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="Shapes" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Shapes" RUN_TARGET_NAME="Shapes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="lab_3" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="Car" RUN_TARGET_NAME="lab_3">
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="run_tests" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Car" TARGET_NAME="run_tests" CONFIG_NAME="Release">
+    <configuration name="sfml-audio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-audio" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+    <configuration name="sfml-graphics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-graphics" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-main" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-network" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-network" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-system" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-system" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-window" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="sfml-window" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shape" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shapes" TARGET_NAME="shape" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Release" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Catch.unit_tests" />
+      <item itemvalue="Catch.tests" />
       <item itemvalue="CMake Application.Catch2WithMain" />
       <item itemvalue="CMake Application.Catch2" />
       <item itemvalue="CMake Application.ContinuousBuild" />
@@ -360,9 +421,15 @@
       <item itemvalue="CMake Application.NightlyTest" />
       <item itemvalue="CMake Application.NightlyUpdate" />
       <item itemvalue="CMake Application.Nightly" />
-      <item itemvalue="CMake Application.car" />
-      <item itemvalue="CMake Application.lab_3" />
+      <item itemvalue="CMake Application.Shapes" />
       <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.sfml-audio" />
+      <item itemvalue="CMake Application.sfml-graphics" />
+      <item itemvalue="CMake Application.sfml-main" />
+      <item itemvalue="CMake Application.sfml-network" />
+      <item itemvalue="CMake Application.sfml-system" />
+      <item itemvalue="CMake Application.sfml-window" />
+      <item itemvalue="CMake Application.shape" />
       <item itemvalue="CTest Application.All CTest" />
     </list>
   </component>
@@ -399,7 +466,12 @@
       <workItem from="1714980540629" duration="494000" />
       <workItem from="1714988247019" duration="5000" />
       <workItem from="1714995114436" duration="594000" />
-      <workItem from="1715152840316" duration="984000" />
+      <workItem from="1715152840316" duration="5099000" />
+      <workItem from="1715183663731" duration="614000" />
+      <workItem from="1715298099641" duration="379000" />
+      <workItem from="1715355101035" duration="16854000" />
+      <workItem from="1715894710920" duration="74000" />
+      <workItem from="1715981321820" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил описание и clang-format">
       <option name="closed" value="true" />
