@@ -1,3 +1,6 @@
-//
-// Created by user on 23.05.2024.
-//
+#include "src/ParseUrlHandler/CParserUrlHandler.h"
+
+int main() {
+    CParserUrlHandler::ParseUrls();
+    return 0;
+}

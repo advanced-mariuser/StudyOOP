@@ -33,7 +33,7 @@ const vector<unsigned int> CDate::DAYS_OF_MONTH = {
 };
 
 //TODO почему среда 0
-//потому что 01.01.1970 это четверг
+//TODO потому что 01.01.1970 это среда
 const map<unsigned int, WeekDay> CDate::NUMBER_WEEKDAY_MAP = {
         {1, WeekDay::THURSDAY},
         {2, WeekDay::FRIDAY},
@@ -84,9 +84,10 @@ unsigned int CDate::GetDay() const
 {
     unsigned int year = MIN_YEAR + m_days / DAYS_IN_YEAR_EXACT;
     //количества дней, прошедших с начала текущего года:
-    unsigned int days = m_days - static_cast<int>((year - MIN_YEAR) * DAYS_IN_YEAR + (year - MIN_YEAR) / 4 - (year - MIN_YEAR) / 100 + (year - MIN_YEAR) / 400);
+    unsigned int days = m_days - static_cast<int>((year - MIN_YEAR) * DAYS_IN_YEAR + (year - MIN_YEAR) / 4 -
+                                                  (year - MIN_YEAR) / 100 + (year - MIN_YEAR) / 400);
 
-    //цикл в рамках одного года
+    //TODO цикл в рамках одного года
     for (size_t index = 0; index < DAYS_OF_MONTH.size(); ++index)
     {
         int daysOfMonth = DAYS_OF_MONTH[index];
@@ -106,7 +107,8 @@ unsigned int CDate::GetDay() const
 Month CDate::GetMonth() const
 {
     unsigned int year = MIN_YEAR + m_days / DAYS_IN_YEAR_EXACT;
-    unsigned int days = m_days - static_cast<int>((year - MIN_YEAR) * DAYS_IN_YEAR + (year - MIN_YEAR) / 4 - (year - MIN_YEAR) / 100 + (year - MIN_YEAR) / 400);
+    unsigned int days = m_days - static_cast<int>((year - MIN_YEAR) * DAYS_IN_YEAR + (year - MIN_YEAR) / 4 -
+                                                  (year - MIN_YEAR) / 100 + (year - MIN_YEAR) / 400);
 
     //цикл в рамках одного года
     for (size_t index = 0; index < DAYS_OF_MONTH.size(); ++index)
